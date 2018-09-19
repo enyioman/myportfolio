@@ -1,0 +1,79 @@
+.navbar {
+    position: fixed;
+    width:100%;
+    top: 0;
+}
+nav a {
+    color: #ff3547;
+}
+nav a:hover {
+    color: #D36135;
+}
+.jumbotron {
+    top: -10vh;
+    height: 100vh;
+    /* background-color:#0e0004; */
+    color: #fff;
+    background: linear-gradient(rgba(14, 0, 4,0.3), rgba(14, 0, 4)), url('https://res.cloudinary.com/dwkzixuca/image/upload/v1533899790/owner.jpg') no-repeat;
+    background-size: cover;
+}
+.owner {
+    padding-top: 500px !important;
+}
+.hr{
+      width:90px;
+      height:2px !important;
+      background-color:#ff3547;
+  }
+.contacts a {
+      padding: 20px;
+      font-size: 30px;
+      width: 80px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 60%;
+      color: #ff3547;
+      background-color: #2e2e2e;
+      box-shadow: 3px 3px 5px #999;
+}
+.contacts a:hover {
+    opacity: 0.7;
+    color: #D36135;
+}
+.btn {
+    border-radius: 20px;
+}
+#footer {
+    background-color: #2e2e2e;
+    height: 10vh;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+#about_me, #projects, #contacts {
+    margin-top: 80px !important;
+}
+@media only screen and (max-width: 815px) {
+/* For mobile phones: */
+  .project-tile {
+      margin-top: 40px;
+  }
+  .navbar {
+      max-width: 100%;
+  }
+  .jumbotron {
+    top: -10vh;
+    height: 100vh;
+    /* background-color:#0e0004; */
+    color: #fff;
+    background: linear-gradient(rgba(14, 0, 4,0.5), rgba(14, 0, 4)), url('https://res.cloudinary.com/dwkzixuca/image/upload/v1533899790/owner.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.owner {
+    padding-top: 300px !important;
+}
+
+}
